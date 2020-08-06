@@ -10,9 +10,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ### MathJax
 
-Mathematics with latex
+Mathematics with \\(\LaTeX\\) uses `\\( \int \))` inline and `\\[ \int \\]` in block
 
-$\int$
 \\(\int\\)
 \\[ \int \\]
 
