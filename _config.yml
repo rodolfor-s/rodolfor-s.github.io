@@ -2,7 +2,6 @@
 
 # Name of website
 title: Base space
-subtitle: The website of Rodolfo R. Soldati.
 
 # Short description of your site
 description: I am a PhD student at University of Sao Paulo, investigating quantum physics of thermodynamics.
@@ -16,32 +15,8 @@ theme: jekyll-theme-minimal
 # Logo
 logo: "./assets/img/me.jpg"
 
-# --- List of links in the navigation bar --- #
-
-# navbar-links:
-#   About Me: "aboutme"
-#   Resources:
-#     - Beautiful Jekyll: "https://beautifuljekyll.com"
-#     - Learn markdown: "https://www.markdowntutorial.com/"
-#   Author's home: "https://deanattali.com"
-
-# --- Misc --- #
-
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "-"
-
-# Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
-
-# # --- You don't need to touch anything below here (but you can if you want) --- #
-
-# # Output options (more information on Jekyll's site)
-# timezone: "America/Vancouver"
-# markdown: kramdown
-# highlighter: rouge
-# permalink: /:year-:month-:day-:title/
-# paginate: 5
+# User page
+is_user_page: true
 
 kramdown:
   input: GFM
