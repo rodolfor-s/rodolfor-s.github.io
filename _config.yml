@@ -15,9 +15,6 @@ theme: jekyll-theme-minimal
 # Logo
 logo: "./assets/img/me.jpg"
 
-# User page
-is_user_page: true
-
 kramdown:
   input: GFM
   math_engine: mathjax
