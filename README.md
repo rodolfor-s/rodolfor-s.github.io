@@ -10,7 +10,10 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ### MathJax
 
-$$ \int $$
+\( \int \)
+\(\int\)
+\[\int\]
+$$\int$$
 
 ```markdown
 Syntax highlighted code block
