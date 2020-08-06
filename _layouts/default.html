@@ -13,12 +13,10 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
-        <figure>
-          {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-          {% endif %}
-          <figcaption>&#8593; Photo by my friend Mark.</figcaption>
-        </figure>
+        {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+        <p><small>&#8593; Photo by my friend Mark.</small></p>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -34,11 +32,11 @@
         </ul>
         {% endif %}
         
-        Department of Mechanics and Materials Physics – Office 102
-        Universidade de Sao Paulo, Instituto de Fisica
-        Rua do Matao, 1371
-        05508-090
-        Sao Paulo, SP, Brazil
+        <p>Department of Mechanics and Materials Physics – Office 102</p>
+        <p>Universidade de Sao Paulo, Instituto de Fisica</p>
+        <p>Rua do Matao, 1271</p>
+        <p>05508-090</p>
+        <p>Sao Paulo, SP, Brazil</p>
       </header>
       <section>
 
