@@ -3,13 +3,14 @@
 <p class="posts">
 	{% for post in site.posts %}
 	    <span>{{ post.date | date_to_string }}</span>. — <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    {{ post.content }}
-    {% if page.tags %}
+        {{ post.content }}
+        <p>
+        {% if page.tags %}
             <small>🏷 tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-    {% endif %}
-
+        {% endif %}
+        </p>
 	{% endfor %}
 </p>
 
-<hr style="float: right">
+<hr style="position: absolute; right: 0px">
 &#8718;
