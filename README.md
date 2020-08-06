@@ -14,6 +14,10 @@ Mathematics with latex
 
 $\int$
 $$ \int $$
+\\(\int\\)
+\(\int\)
+\[\int\]
+\\[ \int \\]
 
 ```markdown
 Syntax highlighted code block
