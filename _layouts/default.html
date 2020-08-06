@@ -23,11 +23,11 @@
         {% if site.logo %}
         <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-        <p><small>&#8593; Photo by my friend Mark.</small></p>
+        <p style="font-size:6px">&#8593; Photo by my friend Mark.</p>
         
-        <strong>about me</strong>
+        <strong><small>about me</small></strong>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p><small>{{ site.description | default: site.github.project_tagline }}</small></p>
 
         <!-- See below other options in the original default.html of jekyll minimal theme
         
@@ -43,8 +43,8 @@
         </ul>
         {% endif %} -->
         
-        <strong>contact me</strong>
-        <p>rsoldati [at] usp.br</p>
+        <strong><small>contact me</small></strong>
+        <p><small>rsoldati [at] usp.br</small></p>
       </header>
       <section>
 
