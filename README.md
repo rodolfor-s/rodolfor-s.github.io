@@ -13,10 +13,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Mathematics with latex
 
 $\int$
-$$ \int $$
 \\(\int\\)
-\(\int\)
-\[\int\]
 \\[ \int \\]
 
 ```markdown
