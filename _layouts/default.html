@@ -16,6 +16,15 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+    ul {
+    list-style: none;
+    }
+
+    ul li::before {
+    content: "\2022";
+    }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -40,11 +49,11 @@
         <br/>
         <small>📧 rsoldati [at] usp.br</small>
         <br/>
-        <small>🏛 Department of Mechanics and Materials, office 102<br/>
-          &nbsp; Universidade de Sao Paulo, Instituto de Fisica<br/>
-          &nbsp; Rua do Matao, 1271<br/>
-          &nbsp; 05508-090<br/>
-          &nbsp; Sao Paulo, SP, Brazil</small>
+        <small><span style="margin-left:-2em">🏛 Department of Mechanics and Materials, office 102</span><br/>
+          Universidade de Sao Paulo, Instituto de Fisica<br/>
+          Rua do Matao, 1271<br/>
+          05508-090<br/>
+          Sao Paulo, SP, Brazil</small>
       </header>
       <section>
 
