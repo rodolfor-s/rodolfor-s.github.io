@@ -22,12 +22,12 @@
     header {
       /* width:270px; */
       /* float:left; */
-      /* position:static; */
-      height:1080px;
+      position:static;
+      height:720px;
       /* -webkit-font-smoothing:subpixel-antialiased; */
     }
   </style>
-  <body style="background-color: #fdf1d2;">
+  <body style="background-color: #f6eeda;">
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -37,27 +37,39 @@
         {% endif %}
         <p style="font-size:8px">Photograph by my friend Mark.</p>
         
-        <strong><small>ℹ️ about me</span></small></strong>
+        <strong>
+          <small>
+            ℹ️ about me
+          </small>
+        </strong>
 
-        <p><small>
-          {{ site.description | default: site.github.project_tagline }}<br/>
-          See also:<br/>
-          <a href="https://drive.google.com/file/d/1wp-4hVFoYvXmlqjStJ0YdMx2vwy1Z1ov/view?usp=sharing">My curriculum in pdf.</a><br/>
-          <a href="https://orcid.org/0000-0002-1446-1276" target="_blank">ORCID iD.</a><br/>
-          For Brazilians: <a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes.</a>
-         </small></p>
+        <p>
+          <small>
+            {{ site.description | default: site.github.project_tagline }}<br/>
+            See also:<br/>
+            <a href="https://drive.google.com/file/d/1wp-4hVFoYvXmlqjStJ0YdMx2vwy1Z1ov/view?usp=sharing">My curriculum in pdf.</a><br/>
+            <a href="https://orcid.org/0000-0002-1446-1276" target="_blank">ORCID iD.</a><br/>
+            For Brazilians: <a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes.</a>
+          </small>
+        </p>
         
-        <strong><small>ℹ️ reach me</small></strong>
+        <strong>
+          <small>
+            ℹ️ reach me
+          </small>
+        </strong>
         
         <br/>
         <small>by email: rsoldati [at] usp.br</span></small>
         <br/>
-        <small>or at:<br/>
+        <small>
+          or at:<br/>
           Department of Mechanics and Materials, office 102<br/>
           Universidade de Sao Paulo, Instituto de Fisica<br/>
           Rua do Matao, 1271<br/>
           05508-090<br/>
-          Sao Paulo, SP, Brazil</small>
+          Sao Paulo, SP, Brazil
+        </small>
       </header>
       <section>
 
