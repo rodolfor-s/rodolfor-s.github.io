@@ -18,15 +18,20 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
-  <!-- <style>
-    header {
+  <style>
+    /* header { */
       /* width:270px; */
       /* float:left; */
-      position:static;
+      /* position:static; */
       /* height:720px; */
       /* -webkit-font-smoothing:subpixel-antialiased; */
+    /* } */
+    div.caption {
+      position: fixed;
+      float: left;
+      transform: rotate(-90deg);
     }
-  </style> -->
+  </style>
   <body style="background-color: #f6eeda; padding: 25px;">
     <div class="wrapper">
       <header>
