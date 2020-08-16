@@ -41,9 +41,11 @@
         <small>the website of</small><br/>
         <strong>Rodolfo R. Soldati</strong>
         {% if site.logo %}
-        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        <div>
+         <img src="{{site.logo | relative_url}}" alt="Logo" />
+         <div class="caption" style="font-size:8px">Photograph by my friend Mark.</div>
+        </div>
         {% endif %}
-        <div class="caption" style="font-size:8px">Photograph by my friend Mark.</div>
         
         <strong>
           <small>
