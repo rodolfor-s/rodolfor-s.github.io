@@ -18,21 +18,15 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
-  <style>
-    /* header { */
+  <!-- <style>
+    header {
       /* width:270px; */
       /* float:left; */
       /* position:static; */
       /* height:720px; */
       /* -webkit-font-smoothing:subpixel-antialiased; */
-    /* } */
-    div.caption {
-      position: relative;
-      left = -20px;
-      transform: rotate(-90deg);
-      width: 8px;
     }
-  </style>
+  </style> -->
   <body style="background-color: #f6eeda; padding: 25px;">
     <div class="wrapper">
       <header>
@@ -44,9 +38,9 @@
         {% if site.logo %}
         <div>
          <img src="{{site.logo | relative_url}}" alt="Logo" />
-         <div class="caption" style="font-size:8px">Photograph by my friend Mark.</div>
         </div>
         {% endif %}
+        <span style="font-size:8px">Photograph by my friend Mark.</span>
         
         <strong>
           <small>
