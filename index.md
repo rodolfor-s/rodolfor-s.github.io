@@ -1,4 +1,4 @@
-## Announcements
+## 📰
 
 <div class="posts">
 	{% for post in site.posts %}
