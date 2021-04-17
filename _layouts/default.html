@@ -29,8 +29,8 @@
     /* Style the tab */
     .tab {
     overflow: hidden;
-    /* border: 1px solid #ccc; */
-    background-color: inherit;
+    border: 1px solid #ccc;
+    background-color: #f6eeda;
     }
 
     /* Style the buttons that are used to open the tab content */
@@ -54,10 +54,10 @@
     background-color: #ccc;
     }
   </style>
-  <body style="background-color: #f6eeda; padding: 25px;">
+  <body style="background-color: #f6eeda; padding: 65px;">
     <div class="wrapper">
         <header>
-            <h1 style="margin-bottom: 2px;">
+            <h1 style="margin-bottom: 5px;">
             <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
             </h1>
             <small>the website of</small><br/>
@@ -124,7 +124,7 @@
         <section>
 
             <!-- Tab links -->
-            <div class="tab" style="position: fixed; top: 0px; margin-bottom: 10px;">
+            <div class="tab" style="position: fixed; top: 0px">
                 <button class="tablinks" onclick="openCity(event, 'bulletin')" id="defaultOpen">News</button>
                 <button class="tablinks" onclick="openCity(event, 'publications')">Publications</button>
             </div>
@@ -207,7 +207,9 @@
         </div> -->
         </section>
         <footer>
-            <em>Base space</em> is a concept in the theory of fibre bundles that serves as part of the local trivialisation of the corresponding total space into the cartesian product <em>base</em> $\times$ <em>fibre.</em>
+            <small>
+                <em>Base space</em> is a concept in the theory of fibre bundles that serves as part of the local trivialisation of the corresponding total space into the cartesian product <em>base</em> $\times$ <em>fibre.</em>
+            </small>
             <!-- <strong>
                 reach me
             </strong>
