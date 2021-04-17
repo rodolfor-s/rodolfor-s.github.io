@@ -29,8 +29,8 @@
     /* Style the tab */
     .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /* border: 1px solid #ccc; */
+    background-color: inherit;
     }
 
     /* Style the buttons that are used to open the tab content */
@@ -56,168 +56,167 @@
   </style>
   <body style="background-color: #f6eeda; padding: 25px;">
     <div class="wrapper">
-      <header>
-        <h1 style="margin-bottom: 0px;">
-          <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
-        </h1>
-        <small>the website of</small><br/>
-        <strong>Rodolfo R. Soldati</strong>
-        {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-        <p style="font-size:8px">Photograph by my friend Mark.</p>
-        
-        <!-- <strong>
-          <small>
-            ℹ️ about me
-          </small>
-        </strong> -->
+        <header>
+            <h1 style="margin-bottom: 0px;">
+            <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
+            </h1>
+            <small>the website of</small><br/>
+            <strong>Rodolfo R. Soldati</strong>
+            {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo" />
+            {% endif %}
+            <p style="font-size:8px">Photograph by my friend Mark.</p>
+            
+            <!-- <strong>
+            <small>
+                ℹ️ about me
+            </small>
+            </strong> -->
 
-        <p>
-          <strong>
-              about me
-          </strong><br/>
-          <small>
-            {{ site.description | default: site.github.project_tagline }}<br/>
-            See also (links open in new page):<br/>
-            <span white-space="nowrap">
-              <a href="https://rodolfor-s.github.io/assets/cv_rsoldati.pdf" target="_blank">CV file</a>
-            </span> • 
-            <span white-space="nowrap">
-              <a href="https://orcid.org/0000-0002-1446-1276" target="_blank">ORCID iD</a>
-            </span> • 
-            <span white-space="nowrap">
-              <a href="https://scholar.google.com/citations?user=1JYgbkQAAAAJ&hl=en" target="_blank">Google Scholar</a>
-            </span> • 
-            <span white-space="nowrap">
-              <a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes</a>
-            </span><br/>
-            For a list of preprints, see:
-            <!-- <span white-space="nowrap"> -->
-              <a href="https://arxiv.org/a/reissoldati_r_1.html" target="_blank">arXiv,</a> 
-            <!-- </span> -->
-            or see the rightmost column with publications by year.<br/>
-            For <strong>contact information</strong> (emails) I recommend looking it up in my latest preprints in the link above.
-            <!-- (I'm avoiding some spam by not putting it here, and in this way you can also be sure to have the latest contact info). -->
-          </small>
-        </p>
-        
-        <!-- <strong>
-          <small>
-            ℹ️ reach me
-          </small>
-        </strong>
-        
-        <br/>
-        <small>by email: rsoldati [at] usp.br</span></small>
-        <br/>
-        <small>
-          or at:<br/>
-          Department of Mechanics and Materials, office 102<br/>
-          Universidade de Sao Paulo, Instituto de Fisica<br/>
-          Rua do Matao, 1271<br/>
-          05508-090<br/>
-          Sao Paulo, SP, Brazil
-        </small> -->
-      </header>
+            <p>
+            <strong>
+                about me
+            </strong><br/>
+            <small>
+                {{ site.description | default: site.github.project_tagline }}<br/>
+                See also (links open in new page):<br/>
+                <span white-space="nowrap">
+                <a href="https://rodolfor-s.github.io/assets/cv_rsoldati.pdf" target="_blank">CV file</a>
+                </span> • 
+                <span white-space="nowrap">
+                <a href="https://orcid.org/0000-0002-1446-1276" target="_blank">ORCID iD</a>
+                </span> • 
+                <span white-space="nowrap">
+                <a href="https://scholar.google.com/citations?user=1JYgbkQAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                </span> • 
+                <span white-space="nowrap">
+                <a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes</a>
+                </span><br/>
+                For a list of preprints, see:
+                <!-- <span white-space="nowrap"> -->
+                <a href="https://arxiv.org/a/reissoldati_r_1.html" target="_blank">arXiv,</a> 
+                <!-- </span> -->
+                or see the rightmost column with publications by year.<br/>
+                For <strong>contact information</strong> (emails) I recommend looking it up in my latest preprints in the link above.
+                <!-- (I'm avoiding some spam by not putting it here, and in this way you can also be sure to have the latest contact info). -->
+            </small>
+            </p>
+            
+            <!-- <strong>
+            <small>
+                ℹ️ reach me
+            </small>
+            </strong>
+            
+            <br/>
+            <small>by email: rsoldati [at] usp.br</span></small>
+            <br/>
+            <small>
+            or at:<br/>
+            Department of Mechanics and Materials, office 102<br/>
+            Universidade de Sao Paulo, Instituto de Fisica<br/>
+            Rua do Matao, 1271<br/>
+            05508-090<br/>
+            Sao Paulo, SP, Brazil
+            </small> -->
+        </header>
 
-      <section>
+        <section>
 
-        <!-- Tab links -->
-        <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'bulletin')" id="defaultOpen">Bulletin</button>
-            <button class="tablinks" onclick="openCity(event, 'publications')">Publications</button>
-        </div>
-        <!-- Tab content -->
-        <div id="bulletin" class="tabcontent">
-            <h2>📰 Bulletin</h2>
-            
-            <!-- extra content -->
-            
-            {{ content }}
-            
-            <!-- extra content -->
-            
-            <div style="text-align: right">
-                <!-- &#8718; -->
-                ∎
+            <!-- Tab links -->
+            <div class="tab" style="position: fixed; top: 0px">
+                <button class="tablinks" onclick="openCity(event, 'bulletin')" id="defaultOpen">News</button>
+                <button class="tablinks" onclick="openCity(event, 'publications')">Publications</button>
             </div>
-        </div>
-        
-        <div id="publications" class="tabcontent">
-            <div style="
-            /* display: flex; */
-            /* flex-wrap: wrap; */
-            /* position: static;  */
-            /* right: 0px;  */
-            /* width: 200px; */
-            ">
-            <h3>Publications</h3>
-            <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
+
+            <!-- Tab content -->
+            <div id="bulletin" class="tabcontent">
+                <h2>📰 Bulletin</h2>
+                
+                <!-- extra content -->
+                
+                {{ content }}
+                
+                <!-- extra content -->
+                
+                <div style="text-align: right">
+                    <!-- &#8718; -->
+                    ∎
+                </div>
             </div>
-        </div>
+            
+            <div id="publications" class="tabcontent">
+                <h3>Publications</h3>
 
-        <script>
-            function openCity(evt, cityName) {
-            // Declare all variables
-            var i, tabcontent, tablinks;
+                <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
 
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
+                <div style="text-align: right">
+                    <!-- &#8718; -->
+                    ∎
+                </div>
+            </div>
 
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
+            <script>
+                function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
 
-            // Show the current tab, and add an "active" class to the button that opened the tab
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-            }
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
 
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
-      
-      <!-- <h2>📰 Bulletin</h2> -->
-      
-      <!-- extra content -->
-      
-      <!-- {{ content }} -->
-      
-      <!-- extra content -->
-      
-      <!-- <div style="text-align: right"> -->
-        <!-- &#8718; -->
-        <!-- ∎ -->
-      <!-- </div> -->
-    
-    <!-- <div style="
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* position: static;  */
-    /* right: 0px;  */
-    /* width: 200px; */
-    ">
-    <h3>Publications</h3>
-    <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
-    </div> -->
-      </section>
-      <footer>
-        <!-- <strong>
-            reach me
-        </strong>
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+                }
+
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
         
-        <br/>
-        <small>rsoldati [at] usp.br</span></small>
-        <br/>
-        <small>rodolfo.soldati [at] itp1.uni-stuttgart.de</span></small>
-        <p style="font-size:8px">Cover photo is a landscape of Durham city, England, on a hill next to St. Aidan's College. 2015.</p> -->
-      </footer>
+        <!-- <h2>📰 Bulletin</h2> -->
+        
+        <!-- extra content -->
+        
+        <!-- {{ content }} -->
+        
+        <!-- extra content -->
+        
+        <!-- <div style="text-align: right"> -->
+            <!-- &#8718; -->
+            <!-- ∎ -->
+        <!-- </div> -->
+        
+        <!-- <div style="
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* position: static;  */
+        /* right: 0px;  */
+        /* width: 200px; */
+        ">
+        <h3>Publications</h3>
+        <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
+        </div> -->
+        </section>
+        <footer>
+            <!-- <strong>
+                reach me
+            </strong>
+            
+            <br/>
+            <small>rsoldati [at] usp.br</span></small>
+            <br/>
+            <small>rodolfo.soldati [at] itp1.uni-stuttgart.de</span></small>
+            <p style="font-size:8px">Cover photo is a landscape of Durham city, England, on a hill next to St. Aidan's College. 2015.</p> -->
+        </footer>
     </div>
     <!-- <div style="
     display: flex;
