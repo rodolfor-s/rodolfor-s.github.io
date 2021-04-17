@@ -57,7 +57,7 @@
   <body style="background-color: #f6eeda; padding: 25px;">
     <div class="wrapper">
         <header>
-            <h1 style="margin-bottom: 0px;">
+            <h1 style="margin-bottom: 2px;">
             <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
             </h1>
             <small>the website of</small><br/>
@@ -124,11 +124,11 @@
         <section>
 
             <!-- Tab links -->
-            <div class="tab" style="position: fixed; top: 0px">
+            <div class="tab" style="position: fixed; top: 0px, margin-bottom: 10px">
                 <button class="tablinks" onclick="openCity(event, 'bulletin')" id="defaultOpen">News</button>
                 <button class="tablinks" onclick="openCity(event, 'publications')">Publications</button>
             </div>
-
+                        
             <!-- Tab content -->
             <div id="bulletin" class="tabcontent">
                 <h2>📰 Bulletin</h2>
