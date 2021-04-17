@@ -125,25 +125,38 @@
 
         <!-- Tab links -->
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            <button class="tablinks" onclick="openCity(event, 'bulletin')" id="defaultOpen">Bulletin</button>
+            <button class="tablinks" onclick="openCity(event, 'publications')">Publications</button>
         </div>
         <!-- Tab content -->
-        <div id="London" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
+        <div id="bulletin" class="tabcontent">
+            <h2>📰 Bulletin</h2>
+            
+            <!-- extra content -->
+            
+            {{ content }}
+            
+            <!-- extra content -->
+            
+            <div style="text-align: right">
+                <!-- &#8718; -->
+                ∎
+            </div>
         </div>
         
-        <div id="Paris" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p>
+        <div id="publications" class="tabcontent">
+            <div style="
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            /* position: static;  */
+            /* right: 0px;  */
+            /* width: 200px; */
+            ">
+            <h3>Publications</h3>
+            <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
+            </div>
         </div>
-        
-        <div id="Tokyo" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-        </div>
+
         <script>
             function openCity(evt, cityName) {
             // Declare all variables
@@ -170,28 +183,29 @@
             document.getElementById("defaultOpen").click();
         </script>
       
-      <h2>📰 Bulletin</h2>
+      <!-- <h2>📰 Bulletin</h2> -->
       
       <!-- extra content -->
       
-      {{ content }}
+      <!-- {{ content }} -->
       
       <!-- extra content -->
       
-      <div style="text-align: right">
+      <!-- <div style="text-align: right"> -->
         <!-- &#8718; -->
-        ∎
-      </div>
-      <div style="
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* position: static;  */
-        /* right: 0px;  */
-        /* width: 200px; */
-      ">
-        <h3>Publications</h3>
-        <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
-      </div>
+        <!-- ∎ -->
+      <!-- </div> -->
+    
+    <!-- <div style="
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* position: static;  */
+    /* right: 0px;  */
+    /* width: 200px; */
+    ">
+    <h3>Publications</h3>
+    <script src="https://bibbase.org/show?bib=https%3A%2F%2Frodolfor-s.github.io%2Fassets%2FmyPubs.bib&commas=true&jsonp=1&hidemenu=true&theme=simple"></script>
+    </div> -->
       </section>
       <footer>
         <!-- <strong>
