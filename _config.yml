@@ -21,9 +21,7 @@ logo: "./assets/img/me.jpg"
 markdown: kramdown
 
 kramdown:
-  input: kramdown
-  math_engine: katex
-  syntax_highlighter: rouge
+  input: GFM
 
 plugins:
 # Separates posts into pages with paginate
