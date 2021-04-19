@@ -18,9 +18,11 @@ theme: jekyll-theme-minimal
 # Logo
 logo: "./assets/img/me.jpg"
 
+markdown: kramdown
+
 kramdown:
-  input: GFM
-  math_engine: mathjax
+  input: kramdown
+  math_engine: katex
   syntax_highlighter: rouge
 
 plugins:
