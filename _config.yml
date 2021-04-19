@@ -31,3 +31,4 @@ plugins:
   - jekyll-sitemap
 
 paginate: 3
+paginate_path: "."
