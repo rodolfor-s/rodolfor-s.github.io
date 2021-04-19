@@ -21,7 +21,7 @@ logo: "./assets/img/me.jpg"
 markdown: kramdown
 
 kramdown:
-  input: GFM
+  input: kramdown
 
 plugins:
 # Separates posts into pages with paginate
