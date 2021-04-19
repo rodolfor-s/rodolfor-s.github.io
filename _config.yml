@@ -29,3 +29,5 @@ plugins:
   - jekyll-paginate
 # Creates a sitemap.xml
   - jekyll-sitemap
+
+paginate: 3
