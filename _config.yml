@@ -24,5 +24,8 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
+# Separates posts into pages with paginate
+# See: https://jekyllrb.com/docs/pagination/
   - jekyll-paginate
+# Creates a sitemap.xml
   - jekyll-sitemap
