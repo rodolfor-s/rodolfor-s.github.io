@@ -6,7 +6,7 @@
 title: Base space
 
 # Short description of your site
-description: I am a PhD fellow at the University of Stuttgart and jointly at the University of São Paulo, investigating quantum thermodynamics with a view towards information and its use in quantum matter and high-energy physics.
+description: I am a PhD fellow at the <a href="https://en.wikipedia.org/wiki/University_of_Stuttgart" target="_blank">University of Stuttgart</a> and jointly at the <a href="https://en.wikipedia.org/wiki/University_of_S%C3%A3o_Paulo">University of São Paulo</a>, investigating the topic of <a href="https://en.wikipedia.org/wiki/Quantum_thermodynamics">quantum thermodynamics</a> with an <a href="https://en.wikipedia.org/wiki/Quantum_information">information theory</a> twist, and curious about its relationship to <a href="https://en.wikipedia.org/wiki/Quantum_materials">quantum matter</a> and <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime physics</a>.
 
 # Your name to show in the footer
 author: Rodolfo R. Soldati
@@ -30,4 +30,5 @@ plugins:
 # Creates a sitemap.xml
   - jekyll-sitemap
 
+# Number of posts in each page, with paginate:
 paginate: 3
