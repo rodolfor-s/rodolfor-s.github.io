@@ -6,11 +6,21 @@ title: Home
 <div class="posts">
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-    <span>{{ post.date | date_to_string }}</span>. — <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <br/>
-    <div class="content">
+    <span style="text-decoration: underline;">{{ post.date | date_to_string }}. — <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>
+    <!-- <br/> -->
+    <!-- <div class="content">
     {{ post.content }}
+    </div> -->
+    <p>
+    <div class="content" style="margin-top: -15px;">
+        {% if post.content.size > post.excerpt.size %}
+        {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
+        <a href="{{ post.url }}">(read more...)</a>
+        {% else %}
+        {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
     </div>
+    </p>
     {% endfor %}
 </div>
 
