@@ -91,11 +91,11 @@
             <div class="tab" style="position: sticky; top: -10px; margin-top: -15px; margin-bottom: 20px;">
                 <button class="tablinks" onclick="openSection(event, 'bulletin')" id="defaultOpen">News</button>
                 <button class="tablinks" onclick="openSection(event, 'publications')">Publications</button>
+                <button class="tablinks" onclick="openSection(event, 'journaling')">Journaling</button>
             </div>
 
             <!-- Tab content -->
             <div id="bulletin" class="tabcontent">
-                <h2>📰 Bulletin</h2>
 
                 <!-- extra content -->
 
@@ -110,14 +110,32 @@
             </div>
 
             <div id="publications" class="tabcontent">
-                <!-- <h2>Publications</h2> -->
-                <!-- ❗️ Click on “Paper” to open arXiv on the current browser tab. -->
 
-                <script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Frodolfor-s%2Frodolfor-s.github.io%2Fmaster%2Fassets%2Fpublications.bib&commas=true&jsonp=1&hidemenu=true&theme=default&sort=arxivId&groupby=&urlLabel="arXiv"></script>
+                {% for page in site.pages %}
+                    {% if page.publication %}
+                    <h2>{{ page.title }}</h2>
+                    {{ page.content }}
+                    {% endif %}
+                {% endfor %}
 
-                <div style="text-align: right">
-                    ∎
-                </div>
+            </div>
+
+            <div id="journaling" class="tabcontent">
+
+                <h3>🚧 Under construction!</h3>
+
+                Soon I hope to share some journaling notes on the study of diverse topics I find interesting.
+
+                <ul>
+                    {% for page in site.pages %}
+                        {% if page.journaling_index %}
+                            <li>
+                                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
             </div>
 
             <script>

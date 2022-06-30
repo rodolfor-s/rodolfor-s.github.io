@@ -4,6 +4,8 @@ title: Home
 ---
 
 <div class="posts">
+    <h2>📰 Bulletin</h2>
+
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
     <span style="text-decoration: underline;">{{ post.date | date_to_string }}. — <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>
