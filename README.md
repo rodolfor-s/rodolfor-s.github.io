@@ -1,1 +1,3 @@
-# This is the backstage of my website
+# Welcome to the backstage of my website
+
+Fancy a coffee? :coffee:
