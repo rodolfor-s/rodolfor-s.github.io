@@ -1,0 +1,32 @@
+<!-- {% if page.usemathjax %} -->
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+  MathJax.Hub.Config({
+            chtml: {
+                mtextInheritFont: true,
+                mtextFont: 'sans-serif',
+            },
+            extensions: [
+              "tex2jax.js",
+              "MathMenu.js",
+              "MathZoom.js",
+              "AssistiveMML.js",
+              "a11y/accessibility-menu.js"
+            ],
+            tex2jax: {
+              inlineMath: [['$', '$']],
+              displayMath: [['$$', '$$']]
+            },
+            processEscape: false,
+            jax: ["input/TeX", "output/CommonHTML"],
+            TeX: {
+              extensions: [
+                "AMSmath.js",
+                "AMSsymbols.js",
+                "noErrors.js",
+                "noUndefined.js",
+              ]
+            },
+          });
+</script>
+<!-- {% endif %} -->
