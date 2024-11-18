@@ -2,11 +2,7 @@
 layout: about
 title: about me
 permalink: /
-subtitle: <h1 style="margin-bottom: 5px; margin-top: -15px;">
-            <a href="{{ "/" | absolute_url }}" style="font-variant: normal;">{{ site.title | default: site.github.repository_name }}</a>
-            </h1>
-            <small>the website of</small><br/>
-            <strong>{{site.author}}</strong>
+subtitle: <a href="{{ "/" | absolute_url }}" style="font-variant: normal;">{{ site.title | default: site.github.repository_name }}</a> <small>the website of</small><br/> <strong>{{site.author}}</strong>
 
 profile:
   align: left
