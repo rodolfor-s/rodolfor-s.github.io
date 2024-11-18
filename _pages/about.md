@@ -2,7 +2,7 @@
 layout: about
 title: about me
 permalink: /
-subtitle: website of {{ site.author }}
+subtitle: website of Rodolfo R. Soldati. See my latest preprints below or on <a href="https://arxiv.org/a/0000-0002-1446-1276.html">arXiv</a>.
 
 profile:
   align: left
