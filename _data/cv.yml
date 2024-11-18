@@ -1,12 +1,12 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Rodolfo Reis Soldati
+    - name: Date of Birth
+      value: 12th of January 1995
+    - name: Languages
+      value: Portuguese, English
 
 # - title: Education
 #   type: time_table
