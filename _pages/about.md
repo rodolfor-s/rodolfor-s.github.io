@@ -9,7 +9,7 @@ profile:
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size: small;">Photograph by my friend Mark. 2014.</p>
+    <p style="font-size: small;">Photograph by Bruna. 2024.</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
