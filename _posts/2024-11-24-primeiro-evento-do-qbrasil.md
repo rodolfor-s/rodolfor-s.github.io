@@ -18,5 +18,5 @@ tupiniquim do QWorld, organização internacional com os mesmos objetivos.
 Esse evento é o primeiro de muitos do tipo, e um requerimento do QWorld, que
 abre a colaboração entre essas partes (é chamado de *Entangling Workshop*).
 Portanto, é em grande parte um evento em inglês (apesar de que teremos muitos
-elemento em português). Um dos nosso principais objetivos no futuro é gerenciar
+elemento em português). Um dos nossos principais objetivos no futuro é gerenciar
 e propagar conteúdo primariamente em português.
