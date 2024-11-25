@@ -21,13 +21,23 @@
     },
     "work": [
         {
+            "name": "University of Waterloo",
+            "position": "Postdoctoral Researcher",
+            "startDate": "2023-11",
+            "endDate": "",
+            "summary": "",
+            "highlights": [
+                ""
+            ]
+        },
+        {
             "name": "University of Stuttgart",
             "position": "Teaching Assistant",
             "startDate": "2020-01",
             "endDate": "2023-07",
             "summary": "",
             "highlights": [
-                "Courses taught: Classical Mechanics, Electrodynamics, Mathematical Methods of Physics 1."
+                "Courses taught: Classical Mechanics, Electrodynamics, Mathematical Methods of Physics I."
             ]
         },
         {
@@ -37,7 +47,7 @@
             "endDate": "2020-06",
             "summary": "",
             "highlights": [
-                "Course taught: Physics 1, Classical Mechanics."
+                "Course taught: Physics I (Classical Mechanics)."
             ]
         }
     ],
