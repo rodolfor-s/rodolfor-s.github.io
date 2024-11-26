@@ -50,22 +50,10 @@
     ],
     "education": [
         {
-            "institution": "Universität Stuttgart",
+            "institution": "Universität Stuttgart, Universidade de São Paulo",
             "url": "http://elib.uni-stuttgart.de/handle/11682/13720",
             "area": "Physics",
-            "studyType": "Ph.D.",
-            "startDate": "2019",
-            "endDate": "2023",
-            "score": "",
-            "courses": [
-                "Thesis: Quantum cooling: thermodynamics and information."
-            ]
-        },
-        {
-            "institution": "Universidade de São Paulo",
-            "url": "",
-            "area": "Physics",
-            "studyType": "Ph.D.",
+            "studyType": "Joint Ph.D. (Cotutelle)",
             "startDate": "2019",
             "endDate": "2023",
             "score": "",
