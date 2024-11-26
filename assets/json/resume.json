@@ -1,9 +1,9 @@
 {
     "basics": {
         "name": "Rodolfo Reis Soldati",
-        "label": "Postdoctoral Researcher at the Institute for Quantum Computing",
+        "position": "Postdoctoral Researcher",
         "image": "",
-        "email": "rreissol@uwaterloo.ca",
+        "email": "rreissol [at] uwaterloo [dot] ca",
         "summary": "",
         "location": {
             "address": "200 University Avenue West",
@@ -21,14 +21,11 @@
     },
     "work": [
         {
-            "name": "University of Waterloo",
+            "name": "Institute for Quantum Computing, University of Waterloo",
             "position": "Postdoctoral Researcher",
             "startDate": "2023-11",
             "endDate": "",
-            "summary": "",
-            "highlights": [
-                ""
-            ]
+            "summary": ""
         },
         {
             "name": "University of Stuttgart",
