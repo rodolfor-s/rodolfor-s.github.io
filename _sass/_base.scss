@@ -31,8 +31,8 @@ table {
   }
 
   th {
-    font-weight: bold;
-    font-family: "Roboto Mono", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-weight: lighter;
+    font-family: "Roboto Mono", inherit; // TOO LARGE
   }
 }
 
