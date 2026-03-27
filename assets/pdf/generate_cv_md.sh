@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # File path to the PDF
-pdf_file="cv_rsoldati.pdf"
+pdf_file="cv-rsoldati.pdf"
 
 # Check if the PDF file exists
 if [ ! -f "$pdf_file" ]; then
@@ -22,7 +22,7 @@ nav: true
 nav_order: 5
 cv_pdf: $pdf_file
 cv_last_modified: $last_modified
-description: See PDF file. Page under construction.
+description: Please see PDF file for most up-to-date information. This page under construction.
 toc:
   sidebar: left
 ---
