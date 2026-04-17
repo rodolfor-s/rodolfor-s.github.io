@@ -13,4 +13,4 @@ I gave a talk at the Quantum Information seminar at Perimeter Institute last mon
 
 [A Formalization of the Generalized Quantum Stein's Lemma in Lean](https://pirsa.org/26030069)
 
-We are building a quantum information theory library for LEAN, and it is now a module of the growing [*Physlib*](https://github.com/leanprover-community/physlib) library that we hope will parallel *Mathlib* and *CSLib*! Work towards Physlib includes Joseph Tooby-Smith and many more. Check it out!
+We are building a quantum information theory library for LEAN, and it is now a module of the growing *[Physlib](https://github.com/leanprover-community/physlib)* library that we hope will parallel *Mathlib* and *CSLib*! Work towards Physlib includes Joseph Tooby-Smith, and many more. Check it out!
