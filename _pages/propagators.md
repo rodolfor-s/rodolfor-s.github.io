@@ -8,10 +8,10 @@ toc:
   sidebar: left
 ---
 
-
+*Under construction*
 
 <details open markdown="1">
-<summary>1. Setup and conventions</summary>
+<summary><h1>1. Setup and conventions</h1></summary>
 
 Real scalar field with Lagrangian density
 
@@ -32,7 +32,7 @@ We denote a density matrix state by $\rho$. Expectation values $\operatorname{tr
 ---
 
 <details id="op-defs" open markdown="1">
-<summary>2. Operator definitions</summary>
+<summary><h1>2. Operator definitions</h1></summary>
 
 Defined directly from the field operators, and trace and state $\rho$.
 
@@ -64,7 +64,7 @@ using $\delta(k{\cdot}k - m^2)\,\theta(\pm k^0) = \delta(k^0 \mp \omega_k)/(2\om
 ---
 
 <details id="derived" open markdown="1">
-<summary>3. Derived propagators</summary>
+<summary><h1>3. Derived propagators</h1></summary>
 
 All entries below are Green's functions: $(\partial{\cdot} \partial + m^2)G = -\delta^{(4)}(x-x')$.
 
@@ -97,7 +97,7 @@ $G_S$ is time-reversal symmetric; also called the principal-part propagator.
 ---
 
 <details id="rels" open markdown="1">
-<summary>4. Relations</summary>
+<summary><h1>4. Relations</h1></summary>
 
 **Argument exchange**
 
@@ -139,7 +139,7 @@ $$\mathrm{i} G_F(x,x') = \frac{H(x,x')}{2} + \mathrm{i}\frac{G_S(x,x')}{2} $$
 ---
 
 <details id="refs" markdown="1">
-<summary>5. References</summary>
+<summary><h1>5. References</h1></summary>
 
 1. Streater, R. F. and Wightman, A. S., *PCT, Spin and Statistics, and All That*. Princeton University Press, 2000.
 2. Birrell, N. D. and Davies, P. C. W., *Quantum Fields in Curved Space*. Cambridge University Press, 1984.
