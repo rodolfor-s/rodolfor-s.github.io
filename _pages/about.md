@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about me
+title: home
 permalink: /
-subtitle: website of Rodolfo R. Soldati. See my latest preprints below or on arXiv.
+subtitle: website of Rodolfo R. Soldati. See my latest preprints in [publications]({{ '/publications/' | relative_url }}) or on arXiv.
 
 profile:
   align: left
@@ -18,16 +18,16 @@ social: false # includes social icons at the bottom of the page
 
 See also (links open in new page):
 
-A list of preprints:
+- A list of preprints:
 <a href="https://arxiv.org/a/reissoldati_r_1.html" target="_blank">arXiv.</a>
 
 For <strong>contact information</strong> you can take a look at my Google
 Scholar or my latest preprints.
 
-<span white-space="nowrap">
+- <span white-space="nowrap">
     <a href="https://scholar.google.com/citations?user=1JYgbkQAAAAJ&hl=en" target="_blank">Google Scholar</a>
 </span>
 
-<span white-space="nowrap">
-<a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes (CV brasileiro)</a>
+- <span white-space="nowrap">
+    <a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes (CV brasileiro)</a>
 </span>
