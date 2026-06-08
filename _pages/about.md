@@ -18,8 +18,8 @@ social: false # includes social icons at the bottom of the page
 
 See my latest preprints in the [publications page]({{ '/publications/' | relative_url }}) or on <a href="https://arxiv.org/a/reissoldati_r_1.html" target="_blank">arXiv.</a>
 
-For <em>contact information</em> you can take a look at my Google Scholar or my
-latest preprints.
+For <em>contact information</em> you can take a look at my Google Scholar, my
+latest preprints, or on the 📧 link at the top-left of this page.
 
 <span white-space="nowrap">
     <a href="https://scholar.google.com/citations?user=1JYgbkQAAAAJ&hl=en" target="_blank">Google Scholar</a>

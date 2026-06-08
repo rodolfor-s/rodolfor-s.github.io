@@ -1,3 +1,3 @@
 # Welcome to the backstage of my website
 
-Fancy a coffee? :coffee:
+Fancy a cup of coffee? ☕️
