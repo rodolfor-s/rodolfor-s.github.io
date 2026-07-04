@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Quantum Information in L∃∀N!"
+title: "Quantum Information in \\(\\mathsf{L∃∀N}\\)!"
 
 date: 2025-10-14 21:54:15 -0400
 
