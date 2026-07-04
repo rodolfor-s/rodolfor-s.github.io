@@ -86,7 +86,7 @@ instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+lattes_id: 0323881141533439 # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
@@ -113,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  For *contact information* you can take a look at my Google Scholar <i class="ai ai-google-scholar"></i> or my latest preprints. See also my [🇧🇷 Lattes (CV brasileiro)](http://lattes.cnpq.br/0323881141533439).
+  For <em>contact information</em> you can take a look at my Google Scholar <i class="ai ai-google-scholar"></i> or my latest preprints.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
