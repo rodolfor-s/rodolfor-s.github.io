@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: website of Rodolfo R. Soldati.
+subtitle: Base Space
 
 profile:
   align: left
@@ -13,18 +13,16 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-See my latest preprints in the [publications page]({{ '/publications/' | relative_url }}) or on <a href="https://arxiv.org/a/reissoldati_r_1.html" target="_blank">arXiv.</a>
+*Olá!*---{{ site.description }} I am interested in understanding physics from a quantum information perspective, so I employ it to understand thermality, quantum fields, and spacetime.
 
-For <em>contact information</em> you can take a look at my Google Scholar, my
-latest preprints, or on the 📧 link at the top-left of this page.
+I work with the [Barrio-RQI group](https://barrio-rqi.org/) at IQC and PI, and I'm a maintainer of [Physlib](https://github.com/leanprover-community/physlib), the Lean prover community physics library downstream of Mathlib, and a member of [QFormal](https://qform.al/), where we aim to formalize quantum information theory in Lean 4!
 
-<span white-space="nowrap">
-    <a href="https://scholar.google.com/citations?user=1JYgbkQAAAAJ&hl=en" target="_blank">Google Scholar</a>
-</span>
+See my latest preprints in the [publications page]({{ '/publications/' |
+relative_url }}) or on [<i class="ai ai-arxiv"></i>
+arXiv](https://arxiv.org/a/reissoldati_r_1.html).
 
-<span white-space="nowrap">
-    <a href="http://lattes.cnpq.br/0323881141533439" target="_blank">Lattes (CV brasileiro)</a>
-</span>
+<!-- For *contact information* you can take a look at my Google Scholar <i class="ai
+ai-google-scholar"></i> or my latest preprints. See also my [🇧🇷 Lattes (CV brasileiro)](http://lattes.cnpq.br/0323881141533439). -->

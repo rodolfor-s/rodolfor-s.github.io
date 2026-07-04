@@ -2,19 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Base space # the website title (if blank, full name will be used instead)
+title: Rodolfo R. Soldati # the website title (if blank, full name will be used instead)
 author: Rodolfo R. Soldati
 first_name: Rodolfo
-middle_name: R.
-last_name: Soldati
-email: rreissoldati@uwaterloo.ca
+middle_name: #
+last_name: R. Soldati
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a Postdoctoral Fellow at the Institute for Quantum Computing, University
-  of Waterloo.
+  I am a Postdoctoral Fellow at the Institute for Quantum Computing, University of Waterloo.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  <a href="https://github.com/rodolfor-s/rodolfor-s.github.io">Backstage repo</a>.
+  Powered by [Jekyll](https://jekyllrb.com/) with the [al-folio](https://github.com/alshedivat/al-folio) theme. Hosted by [Github Pages](https://pages.github.com/). [Backstage repo](https://github.com/rodolfor-s/rodolfor-s.github.io).
 keywords: 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: tensorproduct.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -74,6 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 acm_id: # your dl.acm.org/profile/id
+arxiv_id: reissoldati_r_1 # https://arxiv.org/a/id.html
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
@@ -83,12 +81,12 @@ flickr_id: # your flickr id
 github_username: rodolfor-s # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 2698697 # Inspire HEP author ID
+inspirehep_id: # 2698697 # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+lattes_id: 0323881141533439 # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
@@ -115,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Find my contact at GitHub or arXiv.
+  For <em>contact information</em> you can take a look at my Google Scholar <i class="ai ai-google-scholar"></i> or my latest preprints.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -226,7 +224,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 # Includes & excludes
@@ -271,7 +269,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-toc
-  - jekyll-twitter-plugin
+  # - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -319,7 +317,7 @@ scholar:
   last_name: [Reis Soldati]
   first_name: [Rodolfo]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
