@@ -14,15 +14,15 @@ nav_order: 6
   - [Studying materials](#studying-materials)
   - [Project suggestions](#project-suggestions)
 
-**A 2026 Fall Term module of QIC891 Topics in Quantum Information**
+__A 2026 Fall Term module of QIC891 Topics in Quantum Information__
 
 - Class times: Tuesday and Thursday, 10:30am -- 11:50am.
 - Term dates: from the 15th of September to the 1st of October, 2026.
 - Location: Perimeter Institute, *room to be determined*.
 - Github repository: *coming soon*.
-- Lecture recordings: [PIRSA (*coming soon*)](https://pirsa.org/).
+- Lecture recordings: [PIRSA *(coming soon)*](https://pirsa.org/).
 
-Please see course logistics and administrative information (Piazza, Crowdmark, etc.) on the parent course page: https://www.math.uwaterloo.ca/~wcleung/qic891-f2026.html. Every background is welcomed to join, including non-QI people.
+Please see course logistics and administrative information (Piazza, Crowdmark, etc.) on the [parent course page](https://www.math.uwaterloo.ca/~wcleung/qic891-f2026.html) by coordinator Prof. Debbie Leung. Every background is welcomed to join, including non-QI researchers.
 
 Our module will be followed by a module on quantum information with von Neumann algebras, taught by [Lauritz van Luijk](https://lauritz-van-luijk.github.io/), which I highly recommend checking out. See the page for module 2 [Entanglement theory for quantum systems described by von Neumann algebras](https://lauritz-van-luijk.github.io/teaching).
 
