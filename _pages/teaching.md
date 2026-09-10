@@ -97,28 +97,28 @@ The following topics are tentative. I may adapt them based on our progress and i
 ### More resources & studying materials
 
 - Lean prover community website. Full of resources, including books, games, and more
-  - https://leanprover-community.github.io/
+  - <https://leanprover-community.github.io/>
 - Reservoir: package repository for Lean
-  - https://reservoir.lean-lang.org/
+  - <https://reservoir.lean-lang.org/>
 - Language reference
-  - https://lean-lang.org/doc/reference/latest/
+  - <https://lean-lang.org/doc/reference/latest/>
 - Theorem Proving in Lean (book)
-  - https://lean-lang.org/theorem_proving_in_lean4/
+  - <https://lean-lang.org/theorem_proving_in_lean4/>
 - Mathematics in Lean (book)
-  - https://leanprover-community.github.io/mathematics_in_lean/
+  - <https://leanprover-community.github.io/mathematics_in_lean/>
 - Mathlib resources
-  - Theorems documentation https://leanprover-community.github.io/mathlib4_docs/
-  - "How do I say ... using Mathlib?" https://leanprover-community.github.io/mathlib-phrasebook/
+  - Theorems documentation <https://leanprover-community.github.io/mathlib4_docs/>
+  - "How do I say ... using Mathlib?" <https://leanprover-community.github.io/mathlib-phrasebook/>
 - QuantumInfo and Physlib repositories
-  - https://github.com/leanprover-community/physlib
-  - https://github.com/Timeroot/Lean-QuantumInfo
+  - <https://github.com/leanprover-community/physlib/>
+  - <https://github.com/Timeroot/Lean-QuantumInfo/>
 - CSLib repository
-  - https://github.com/leanprover/cslib
+  - <https://github.com/leanprover/cslib/>
 - Lean Kernel Arena
-  - https://github.com/leanprover/lean-kernel-arena
+  - <https://github.com/leanprover/lean-kernel-arena/>
 - Lean Zulip forum
-  - Quantum Information channel https://leanprover.zulipchat.com/#narrow/channel/508986-Quantum-information
-  - Physlib channel https://leanprover.zulipchat.com/#narrow/channel/479953-Physlib
+  - Quantum Information channel <https://leanprover.zulipchat.com/#narrow/channel/508986-Quantum-information/>
+  - Physlib channel <https://leanprover.zulipchat.com/#narrow/channel/479953-Physlib/>
 
 ### Assessment & Project suggestions
 
