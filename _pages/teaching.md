@@ -15,8 +15,8 @@ nav_order: 6
     - [1st Week](#1st-week)
     - [2nd Week](#2nd-week)
     - [3rd Week](#3rd-week)
-  - [More resources \& studying materials](#more-resources--studying-materials)
-  - [Assessment \& Project suggestions](#assessment--project-suggestions)
+  - [More resources & studying materials](#more-resources--studying-materials)
+  - [Assessment & Project suggestions](#assessment--project-suggestions)
 
 ***A 2026 Fall Term module of QIC891 Topics in Quantum Information***
 
@@ -24,8 +24,9 @@ nav_order: 6
 - Term dates: from the 15th of September to the 1st of October, 2026.
 - Location: Perimeter Institute, Space Room until Sep 22, then Sky, Time, Sky.
   - [Perimeter's calendar page](https://events.perimeterinstitute.ca/event/2604/).
-- Github repository: *coming soon*.
-- Lecture recordings: [PIRSA *(coming soon)*](https://pirsa.org/).
+- Github repository: [rodolfor-s/lean-quinfo-lectures](https://github.com/rodolfor-s/lean-quinfo-lectures).
+  - [Lecture slides](https://rodolfor-s.github.io/lean-quinfo-lectures/).
+- Lecture recordings: [PIRSA](https://pirsa.org/c26033).
 
 Researchers of every background are welcomed to join, including non-QI researchers.
 
@@ -61,19 +62,25 @@ Learn the ability
 The following topics are tentative. I may adapt them based on our progress and interests from the audience.
 
 #### 1st Week
-- **Lecture 1, 15 Sep:** Motivation, formal verification and proofs, Lean and its foundations.
+- [x] **Lecture 1, 15 Sep:** Motivation, formal verification and proofs, Lean and its foundations
     - What is formal verification and why does it matter for mathematics or physics
     - Autoformalization, and more notes on the role of AI in physics
-    - Setting up Lean and VSCode; first proofs (`#check`, `#eval`, basic tactics)
-    - Propositions, types, and the Curry--Howard correspondence
-- **Lecture 2, 17 Sep:** Core proof writing, syntax, and tactics in Lean.
-    - Propositional and predicate logic in Lean (`intro`, `apply`, `exact`, `rw`, `simp`)
-    - Working with natural numbers, integers, and basic algebraic structures
-    - Introduction to Mathlib: navigating the library, finding lemmas
-    - Lab: Proving elementary lemmas about sets and functions
+    - ~~Setting up Lean and VSCode~~
+    - first proofs (`#check`, ~~`#eval`, basic tactics~~)
+    - *Propositions as types*, and the Curry--Howard correspondence
+- [x] **Lecture 2, 17 Sep:** Core proof writing, syntax, and tactics in Lean
+    - Using Github and `git`
+    - Setting up Lean in VSCode with `elan` and `lake`
+    - Expand on 1st lecture's conversation about sets, types, and getting familiar with Lean's syntax
+    - Further comments on `#check`, `#eval`, `#print`
+    - Introduce main axioms of Lean (`propext`, `Classical.choice`, `Quot.sound`)
+    - ~~Propositional and predicate logic in Lean (`intro`, `apply`, `exact`, `rw`, `simp`)~~
+    - ~~Working with natural numbers, integers, and basic algebraic structure~~
+    - ~~Introduction to Mathlib: navigating the library, finding lemma~~
+    - ~~Lab: Proving elementary lemmas about sets and function~~
 
 #### 2nd Week
-- **Lecture 3, 22 Sep:** Matrix algebra in Mathlib.
+- **Lecture 3, 22 Sep:** Matrix algebra in Mathlib
     - Vector spaces and linear maps in Mathlib (`LinearMap`, `Subspace`)
     - Inner product spaces and Hilbert spaces (`InnerProductSpace`, `EuclideanSpace`, and more)
     - Matrices, adjoints, and unitarity
