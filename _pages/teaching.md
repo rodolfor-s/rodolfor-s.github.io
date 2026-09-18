@@ -16,8 +16,6 @@ nav_order: 6
 **Iteration:** *Selected Advanced Topics in Quantum Information*, QIC 891, Fall 2026.
 
 <!-- QIC891-README:START -->
-**Website:** https://rodolfor-s.github.io/teaching/
-
 ### Logistics
 
 - Class times: Tuesday and Thursday, 10:30am -- 11:50am.
