@@ -2,16 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: materials.
+toc:
+  sidebar: right # or "left"
+description: resources for lectures, tutorials, …
 nav: true
 nav_order: 6
 ---
 
-This page will soon contain more information about
+# Lean-verified Quantum Information Theory
 
-### Lean-verified Quantum Information Theory
+## Lecture course
 
-**A QIC891 minicourse.**
+**Iteration:** *Selected Advanced Topics in Quantum Information*, QIC 891, Fall 2026.
 
-- Date and time: Tuesday and Thursday, 10:30am -- 11:50am
-- Location: 
+<!-- QIC891-README:START -->
+
+<!-- QIC891-README:END -->
