@@ -31,7 +31,7 @@ Researchers of every background are welcomed to join, including non-QI researche
 
 > I also highly recommend checking out the 2nd module on [Entanglement theory for quantum systems described by von Neumann algebras](https://lauritz-van-luijk.github.io/teaching), designed by [Lauritz van Luijk](https://lauritz-van-luijk.github.io/).
 
-## Course Overview
+## Course overview
 
 ***Description***
 
@@ -54,11 +54,11 @@ Learn the ability
 - to reason about mathematics using code,
 - to understand the role of logical verification and its significance in today's mathematics research landscape.
 
-### Lecture plans
+## Lecture schedule
 
 The following topics are tentative. I may adapt them based on our progress and interests from the audience.
 
-#### 1st Week
+### Week 1 (15 & 17 Sep)
 - [x] **Lecture 1, 15 Sep:** Motivation, formal verification and proofs, Lean and its foundations
     - What is formal verification and why does it matter for mathematics or physics
     - Autoformalization, and more notes on the role of AI in physics
@@ -76,7 +76,7 @@ The following topics are tentative. I may adapt them based on our progress and i
     - ~~Introduction to Mathlib: navigating the library, finding lemma~~
     - ~~Lab: Proving elementary lemmas about sets and function~~
 
-#### 2nd Week
+### Week 2 (22 & 24 Sep)
 - **Lecture 3, 22 Sep:** Matrix algebra in Mathlib
     - Vector spaces and linear maps in Mathlib (`LinearMap`, `Subspace`)
     - Inner product spaces and Hilbert spaces (`InnerProductSpace`, `EuclideanSpace`, and more)
@@ -88,7 +88,7 @@ The following topics are tentative. I may adapt them based on our progress and i
     - Tensor products (`TensorProduct`)
     <!-- - Lab: Defining the Bell states and verifying their properties -->
 
-#### 3rd Week
+### Week 3 (29 Sep & 01 Oct)
 - **Lecture 5, 29 Sep:** More quantum information, Generalized Quantum Stein's Lemma.
     - Density matrices as positive semidefinite operators with unit trace
     - Completely positive trace-preserving (CPTP) maps
@@ -98,7 +98,7 @@ The following topics are tentative. I may adapt them based on our progress and i
     - Discussion: current state of quantum information formalization in Mathlib and open problems
     - Resources for going further (e.g., Physlib, Quantumlib efforts, research frontier)
 
-### More resources & studying materials
+## External resources
 
 - Lean prover community website. Full of resources, including books, games, and more
   - <https://leanprover-community.github.io/>
@@ -124,7 +124,7 @@ The following topics are tentative. I may adapt them based on our progress and i
   - Quantum Information channel <https://leanprover.zulipchat.com/#narrow/channel/508986-Quantum-information/>
   - Physlib channel <https://leanprover.zulipchat.com/#narrow/channel/479953-Physlib/>
 
-### Assessment & Project suggestions
+## Assessment & project suggestions
 
 A final project that ties together Lean with quantum information and/or physics.
 
