@@ -11,9 +11,14 @@ nav_order: 6
 
 ## Lean-verified Quantum Information Theory
 
-**Course title:** Selected Advanced Topics in Quantum Information.
-**Course code:** QIC 891.
-**Iteration:** Fall 2026.
+**Course title**:
+  Selected Advanced Topics in Quantum Information.  
+**Course code**:
+  QIC 891.  
+**Iteration**:
+  Fall 2026.  
+**Repository**:
+  [rodolfor-s/lean-quinfo-lectures](https://github.com/rodolfor-s/lean-quinfo-lectures)
 
 <!-- QIC891-README:START -->
 ### Logistics
