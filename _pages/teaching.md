@@ -42,7 +42,7 @@ Researchers of every background are welcomed to join, including non-QI researche
 
 We introduce formal theorem proving with the Lean 4 programming language, placing emphasis on developing Quantum Information Theory theorems and proofs. Formal proof writing is an increasingly important skill as Quantum Information grows more sophisticated, and as machine-verification tools gain popularity.
 
-Participants will learn core theorem-proving syntax, the basics of Lean’s own type theory, the notion and use of tactics, and will gain familiarity with the Mathlib and Physlib/QuantumInfo libraries.
+Participants will learn core theorem-proving syntax, the basics of Lean's own type theory, the notion and use of tactics, and will gain familiarity with the Mathlib and Physlib/QuantumInfo libraries.
 
 ***List of main topics:***
 - Formal theorem proving in Lean 4
