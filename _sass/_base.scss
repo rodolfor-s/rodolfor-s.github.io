@@ -36,6 +36,33 @@ b {
   font-weight: 700;
 }
 
+// "L∃∀N" drawn with a mirrored E and an upside-down A (the web fonts have no
+// ∃/∀ glyphs); _plugins/lean-logo.rb puts this markup in place of the word.
+// Always sans-serif, with the surrounding weight: Atkinson Hyperlegible's cap
+// height (0.668 em) matches Source Serif 4's (0.670 em), so it also sits at the
+// right height inside serif headings.
+.lean-logo,
+.lean-logo span {
+  font: inherit;
+  font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color: inherit;
+}
+
+.lean-logo .flip-x,
+.lean-logo .flip-y {
+  display: inline-block;
+  // Trim the box to cap height..baseline so the flip happens around the letter's centre.
+  text-box: trim-both cap alphabetic;
+}
+
+.lean-logo .flip-x {
+  transform: scaleX(-1);
+}
+
+.lean-logo .flip-y {
+  transform: scaleY(-1);
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
