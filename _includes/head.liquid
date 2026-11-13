@@ -27,7 +27,7 @@
   defer
   rel="stylesheet"
   type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+  href="https://fonts.googleapis.com/css2?{{ site.font_sets[site.font_set].google_fonts | default: site.font_sets.fira.google_fonts }}&display=swap"
 >
 
 <!-- Code Syntax Highlighting -->

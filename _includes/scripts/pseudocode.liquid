@@ -14,6 +14,10 @@
         processEscapes: true,
         processEnvironments: true,
       },
+      output: {
+        font: '{{ site.font_sets[site.font_set].math_font | default: site.font_sets.fira.math_font }}',
+        scale: {{ site.font_sets[site.font_set].math_scale | default: 1 }},
+      },
     };
   </script>
   <script

@@ -6,6 +6,12 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+// Fonts, from the font set chosen in _config.yml (font_set / font_sets)
+{% assign font_set = site.font_sets[site.font_set] | default: site.font_sets.fira %}
+$text-font: {{ font_set.text_font }};
+$heading-font: {{ font_set.heading_font }};
+$logo-font: {{ font_set.logo_font }};
+
 @import
   "variables",
   "themes",

@@ -4,6 +4,9 @@
 
 // Typography
 
+// $text-font, $heading-font and $logo-font are set in assets/css/main.scss from
+// the font set chosen in _config.yml (font_set).
+
 p,
 h1,
 h2,
@@ -20,14 +23,14 @@ strong {
 }
 
 p, em, div, li, span, a, code, pre, .post, .card, .container {
-  font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-family: $text-font;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: $heading-font;
   font-weight: 700;
 }
 
@@ -38,14 +41,14 @@ b {
 
 // "L∃∀N" drawn with a mirrored E and an upside-down A (the web fonts have no
 // ∃/∀ glyphs); _plugins/lean-logo.rb puts this markup in place of the word.
-// Always sans-serif, with the surrounding weight: Atkinson Hyperlegible's cap
-// height (0.668 em) matches Source Serif 4's (0.670 em), so it also sits at the
-// right height inside serif headings.
+// Always in a sans-serif ($logo-font, chosen per font set to have about the
+// same cap height as the surrounding text), with the surrounding weight.
 .lean-logo,
 .lean-logo span {
   font: inherit;
-  font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-family: $logo-font;
   color: inherit;
+  white-space: nowrap; // the inline-block letters would otherwise allow a line break inside the word
 }
 
 .lean-logo .flip-x,

@@ -443,6 +443,48 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
+# Typography
+# -----------------------------------------------------------------------------
+
+# Pick one of the font sets below. Each set chooses the fonts for body text and
+# headings, a sans-serif for the L∃∀N logo (_plugins/lean-logo.rb), and the
+# MathJax math font. Restart `jekyll serve` after changing this.
+font_set: atkinson_stix # fira | stix | classic | atkinson_stix
+
+font_sets:
+  # Fira Sans for all text, Fira Math for maths.
+  fira:
+    google_fonts: "family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700"
+    text_font: '"Fira Sans", system-ui, -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif'
+    heading_font: '"Fira Sans", system-ui, -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif'
+    logo_font: '"Fira Sans", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif'
+    math_font: mathjax-fira
+  # STIX Two Text for all text, STIX Two Math for maths. L∃∀N in Source Sans 3,
+  # whose cap height (0.660 em) matches STIX Two Text's (0.657 em).
+  stix:
+    google_fonts: "family=STIX+Two+Text:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:wght@400;700"
+    text_font: '"STIX Two Text", "Times New Roman", Times, serif'
+    heading_font: '"STIX Two Text", "Times New Roman", Times, serif'
+    logo_font: '"Source Sans 3", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif'
+    math_font: mathjax-stix2
+  # The original look: Atkinson Hyperlegible text, Source Serif 4 headings,
+  # New Computer Modern for maths.
+  classic:
+    google_fonts: "family=Atkinson+Hyperlegible:wght@400;700&family=Source+Serif+4:wght@400;600;700"
+    text_font: '"Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif'
+    heading_font: '"Source Serif 4", Georgia, serif'
+    logo_font: '"Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif'
+    math_font: mathjax-newcm
+  # Like classic, but with STIX Two Math for maths, drawn slightly larger.
+  atkinson_stix:
+    google_fonts: "family=Atkinson+Hyperlegible:wght@400;700&family=Source+Serif+4:wght@400;600;700"
+    text_font: '"Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif'
+    heading_font: '"Source Serif 4", Georgia, serif'
+    logo_font: '"Atkinson Hyperlegible", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif'
+    math_font: mathjax-stix2
+    math_scale: 1.1 # optional in any set: size of maths relative to MathJax's default (1)
+
+# -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 
@@ -489,9 +531,6 @@ third_party_libraries:
         library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
         dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
     version: "5.5.0"
-  google_fonts:
-      url:
-        fonts: "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Source+Serif+4:wght@400;600;700&display=swap"
   highlightjs:
     integrity:
       css:
@@ -539,13 +578,13 @@ third_party_libraries:
     version: "1.9.4"
   mathjax:
     integrity:
-      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
-    local:
-      fonts: "output/chtml/fonts/woff-v2/"
+      js: "sha256-HGPjgijG7REPNt5gYVUvvddMQKQxwkzyyIEZqJYjdUE="
+    # MathJax 4 build without a bundled font: the math font is chosen with
+    # output.font in _includes/scripts/mathjax.liquid and loaded on demand from
+    # @mathjax/<font>-font at the same version.
     url:
-      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
-    version: "3.2.2"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/tex-mml-chtml-nofont.js"
+    version: "4.1.3"
   masonry:
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="

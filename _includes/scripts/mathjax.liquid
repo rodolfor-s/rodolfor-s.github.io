@@ -6,6 +6,11 @@
         tex: {
           tags: 'ams',
         },
+        output: {
+          // math font and size from the font set chosen in _config.yml (font_set)
+          font: '{{ site.font_sets[site.font_set].math_font | default: site.font_sets.fira.math_font }}',
+          scale: {{ site.font_sets[site.font_set].math_scale | default: 1 }},
+        },
       };
     </script>
     <script
